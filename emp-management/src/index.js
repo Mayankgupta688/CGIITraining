@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CounterComponentClass } from "./components/CounterComponentClass";
+import { GrandParent } from "./components/ContextApi";
 
-ReactDOM.render(<CounterComponentClass></CounterComponentClass>, document.getElementById("root"))
+ReactDOM.render(<GrandParent></GrandParent>, document.getElementById("root"))
+
+
 
 
 
